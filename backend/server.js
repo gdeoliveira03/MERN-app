@@ -11,7 +11,7 @@ require('dotenv').config();
 const app = express();
 
 // port is how we define where our backend is
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // call these two functions
 app.use(cors());
